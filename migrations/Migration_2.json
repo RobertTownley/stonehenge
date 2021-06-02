@@ -1,0 +1,16 @@
+{
+    "operations": [
+        {
+            "column": {
+                "length": null,
+                "field_name": "is_superuser",
+                "null": false,
+                "column_type": "INTEGER",
+                "primary_key": false
+            },
+            "db_label": "default",
+            "operation_type": "ADD_COLUMN",
+            "table_name": "user"
+        }
+    ]
+}

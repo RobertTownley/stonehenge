@@ -1,0 +1,60 @@
+{
+    "operations": [
+        {
+            "db_label": "default",
+            "columns": [
+                {
+                    "length": null,
+                    "field_name": "created_at",
+                    "null": false,
+                    "column_type": "VARCHAR",
+                    "primary_key": false
+                },
+                {
+                    "length": null,
+                    "field_name": "created_by",
+                    "null": false,
+                    "column_type": "VARCHAR",
+                    "primary_key": false
+                },
+                {
+                    "length": 15,
+                    "field_name": "title",
+                    "null": false,
+                    "column_type": "VARCHAR",
+                    "primary_key": false
+                },
+                {
+                    "length": null,
+                    "field_name": "is_awesome",
+                    "null": false,
+                    "column_type": "INTEGER",
+                    "primary_key": false
+                }
+            ],
+            "operation_type": "CREATE_TABLE",
+            "table_name": "blogpost"
+        },
+        {
+            "db_label": "default",
+            "columns": [
+                {
+                    "length": null,
+                    "field_name": "is_staff",
+                    "null": false,
+                    "column_type": "INTEGER",
+                    "primary_key": false
+                },
+                {
+                    "length": 127,
+                    "field_name": "username",
+                    "null": false,
+                    "column_type": "VARCHAR",
+                    "primary_key": false
+                }
+            ],
+            "operation_type": "CREATE_TABLE",
+            "table_name": "user"
+        }
+    ]
+}
