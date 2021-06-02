@@ -29,9 +29,11 @@ class App(Application):
                     Route(methods=["GET"], path="/subpage", handler=subpage),
                 ],
             ),
-            AdminRouter(path="/notadminlookelsewhere"),
+            AdminRouter(path="/secret-hidden-admin"),
             CMSRouter(),
         ],
+        request_middlewares=[],
+        response_middlewares=[],
     )
 
 
